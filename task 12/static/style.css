@@ -1,0 +1,29 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+.card {
+    border-radius: 20px;
+    background: white;
+}
+
+.form-control, .btn {
+    border-radius: 12px;
+}
+
+.btn-primary {
+    background: #667eea;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: #5a6fd8;
+    transform: translateY(-3px);
+}
+
+h2 {
+    font-weight: 600;
+}
